@@ -6,8 +6,8 @@ from waifuc.action import (
 from waifuc.export import SaveExporter
 from waifuc.source import LocalSource
 
-img_dir = "/your img folder/"
-output_dir = "/your output folder/"
+img_dir = "D:/Grabber/fu_xuan"
+output_dir = "D:/train/filtered/fu_xuan"
 
 source = LocalSource(img_dir)
 source.attach(
