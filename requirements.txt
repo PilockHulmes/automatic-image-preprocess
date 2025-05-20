@@ -1,1 +1,2 @@
-git+https://github.com/deepghs/waifuc.git@main#egg=waifuc[gpu]
+git+https://github.com/deepghs/waifuc.git@main#egg=waifuc[gpu] # If you do not want to use gpu for process, please change the #egg=waifuc[gpu] to #egg=waifuc[cpu]
+dghs-imgutils[gpu] # remove the [gpu] if you want to use the cpu version
